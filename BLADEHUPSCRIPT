@@ -73,8 +73,8 @@ StyleSection:NewButton("Kunigami Style", "Set Kunigami style", function()
     setStyle("Kunigami")
 end)
 
-StyleSection:NewButton("Don lorenzo", "Set Don lorenzo style", function()
-    setStyle("Don lorenzo")
+StyleSection:NewButton("Don Lorenzo", "Set Don Lorenzo style", function()
+    setStyle("Don Lorenzo")
 end)
 
 local FlowTab = Window:NewTab("Flow")
@@ -155,6 +155,8 @@ FlowSection:NewButton("Ice", "Activate Ice flow", function()
 end)
 
 local NotesTab = Window:NewTab("INFO")
+local NotesSection = NotesTab:NewSection("Notes")
+
 NotesSection:NewLabel("discord server link join i upload script's and give all BLR account's:")
 NotesSection:NewLabel("https://discord.gg/DNTge3kfqm")
 NotesSection:NewLabel("you must need Reo to work...")
